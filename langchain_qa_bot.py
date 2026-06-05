@@ -39,7 +39,7 @@ if not OPENAI_API_KEY:
 # Model initialisation
 
 llm = ChatOpenAI(
-    model="gpt-3.5-turbo",
+    model="openai/gpt-oss-120b:free",
     temperature=0.7,
     openai_api_key=OPENAI_API_KEY,
 )
